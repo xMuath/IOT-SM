@@ -1,5 +1,6 @@
 
 <?php
+include 'RAC.html';
 $server = "localhost";
 $username = "root";
 $password = "";
