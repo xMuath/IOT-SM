@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><title>learn</title></head>
+<link rel="stylesheet" href="RAC.css">
+<body>
+<div id="header">
+    <h1> Robot Arm Controls </h1>
+</div>
+<div id="slidecontainer">
+
+<form action="RAC.php" method="post">
+    <label>Motor 1</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor1" id="Motor1">
+    <br>
+    value: <span id="demo1"></span>
+    <hr class="hr">
+    <label>Motor 2</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor2" id="Motor2">
+    <br>
+    value: <span id="demo2"></span>
+    <br>
+    <hr class="hr">
+    <label>Motor 3</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor3" id="Motor3">
+    <br>
+    value: <span id="demo3"></span>
+    <br>
+    <hr class="hr">
+    <label>Motor 4</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor4" id="Motor4">
+    <br>
+    value: <span id="demo4"></span>
+    <br>
+    <hr class="hr">
+    <label>Motor 5</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor5" id="Motor5">
+    <br>
+    value: <span id="demo5"></span>
+    <br>
+    <hr class="hr">
+    <label>Motor 6</label> <input type="range" class="slider" min="0" max="180" value="90"  name="Motor6" id="Motor6">
+    <br>
+    value: <span id="demo6"></span>
+    <br>
+
+
+    <button type="reset" class="reset" id="reset" value="Reset">Reset</button>
+    <button type="submit" class="submit" name="submit">Submit</button>
+</form>
+</div>
+<script src="RAC.js"></script>
+
+</body>
+</html>
